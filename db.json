@@ -52,6 +52,33 @@
       "slider3": "34",
       "final-value": "$99",
       "id": 78918
+    },
+    {
+      "name": "Gerardo",
+      "email": "gergarcia9@gmail.com",
+      "slider": "62",
+      "slider2": "50",
+      "slider3": "66",
+      "final-value": "$178",
+      "id": 78919
+    },
+    {
+      "name": "Gerardo",
+      "email": "gergarcia9@gmail.com",
+      "slider": "62",
+      "slider2": "50",
+      "slider3": "66",
+      "final-value": "$178",
+      "id": 78920
+    },
+    {
+      "name": "Gerardo",
+      "email": "gergarcia9@gmail.com",
+      "slider": "40",
+      "slider2": "60",
+      "slider3": "47",
+      "final-value": "$147",
+      "id": 78921
     }
   ]
 }
