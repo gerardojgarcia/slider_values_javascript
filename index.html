@@ -11,9 +11,16 @@
 <body>
 
 <!--Slider Container-->
-<div class="container">
+<form class="container" method="POST" action="http://localhost:3000/quotes">
 
+    <label for="name">Full Name</label>
+    <input type="text" name="name" id="full-name">
 
+    <label for="email">Email</label>
+
+    <input type="email" name="email" id="email">
+
+   
 
     <label for="slider">Slider One</label>
 
@@ -51,9 +58,19 @@
 
 <!--Slider Value DIsplay-->
 
-    <p class="final-value"></p>
+    <div class="quote-container">
+        <strong class="quote-title">Your Quote</strong>
 
+        <label for="final-value">Total(USD)</label>
+    
+            <input type="text" name="final-value" class="final-value"></input>
+
+            <button class="save-quote" type="submit"> Lock-in your price</button>
+
+            <p class="terms">*find out more</p>
 </div>
+
+</form>
 
 
 

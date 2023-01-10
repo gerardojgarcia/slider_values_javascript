@@ -28,14 +28,22 @@ label {
 }
 
 input {
-    background-color: dodgerblue;
-    color: red;
+    background-color: none;
+    border:none;
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+
+    padding: .5rem;
+    font-size: .9rem;
+    color: black;
 }
 
 
 .final-value {
     color: green;
     font-size: 3rem;
+    background-color: white;
+    border: none;
 
 }
 
@@ -67,4 +75,14 @@ button {
 
 button:hover {
     box-shadow: 0px 0px 5px 2px gray;
+}
+
+.quote-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+.quote-title {
+    margin-top: 2rem;
 }

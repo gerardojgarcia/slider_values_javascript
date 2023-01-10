@@ -1,0 +1,57 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "name": "Schlomo Nepanti",
+      "address": "4756 Dozier St.",
+      "company": "test co",
+      "quote": "35"
+    },
+    {
+      "id": 78912
+    },
+    {
+      "slider": "59",
+      "slider2": "15",
+      "slider3": "20",
+      "id": 78913
+    },
+    {
+      "slider": "55",
+      "slider2": "34",
+      "slider3": "85",
+      "final-value": "",
+      "id": 78914
+    },
+    {
+      "slider": "55",
+      "slider2": "34",
+      "slider3": "85",
+      "final-value": "",
+      "id": 78915
+    },
+    {
+      "slider": "52",
+      "slider2": "40",
+      "slider3": "50",
+      "final-value": "",
+      "id": 78916
+    },
+    {
+      "slider": "48",
+      "slider2": "51",
+      "slider3": "38",
+      "final-value": "$137",
+      "id": 78917
+    },
+    {
+      "name": "Gerardo",
+      "email": "gergarcia9@gmail.com",
+      "slider": "33",
+      "slider2": "32",
+      "slider3": "34",
+      "final-value": "$99",
+      "id": 78918
+    }
+  ]
+}

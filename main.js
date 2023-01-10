@@ -71,7 +71,7 @@ submitValueEl.addEventListener('click', ()=>{
 
 
 
-    finalValue.textContent = "$" + finalValueNumber
+    finalValue.value = "$" + finalValueNumber
 })
 
 
@@ -87,3 +87,36 @@ const resetEl = document.querySelector('.reset')
 resetEl.addEventListener('click', function(){
     window.location.reload()
 })
+
+
+
+
+/// Quote Submit 
+
+
+const form = document.querySelector('form');
+form.addEventListener('submit', e => {
+  e.preventDefault(); // prevent the form from submitting
+
+  const formData = new FormData(form);
+  const data = {};
+  formData.forEach((value, key) => {
+    data[key] = value;
+  });
+
+  fetch('http://localhost:3000/quotes', {
+    method: 'POST',
+    body: JSON.stringify(data),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+    .then(response => response.json())
+    .then(json => {
+      console.log(json);
+    });
+});
+
+
+
+
